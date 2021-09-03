@@ -35,7 +35,7 @@ public class Humanoid implements HumanoidInterface {
     @Override
     public void feedPets() {
         for (Animal animal:petsOwned) {
-            animal.eat(animal.getFavoriteFood);
+            animal.eat(animal.getFavoriteFood());
         }
     }
 
