@@ -2,6 +2,14 @@ package main.model.animals;
 
 public class Cat extends Animal {
 
-    // TODO
+    @Override
+    public void makeSound() {
+        System.out.println("miau");
+    }
+
+    @Override
+    public void play() {
+        System.out.println("chasing a mouse");
+    }
 
 }
