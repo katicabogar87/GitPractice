@@ -35,12 +35,12 @@ public class Animal implements AnimalInterface {
 
     @Override
     public void makeSound() {
-
+        System.out.println("some noise");
     }
 
     @Override
     public void play() {
-
+        System.out.println("some plaything");
     }
 
     public String getName() {
