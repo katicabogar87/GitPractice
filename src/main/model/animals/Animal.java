@@ -18,7 +18,11 @@ public class Animal implements AnimalInterface {
     public Animal() {}
 
     public Animal(String name, LocalDate birth, String favoriteToy, Food favoriteFood, Humanoid owner) {
-        // TODO
+        name = this.name;
+        birth = this.birth;
+        favoriteToy = this.favoriteToy;
+        favoriteFood = this.favoriteFood;
+        owner = this.owner;
     }
 
     @Override
