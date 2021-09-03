@@ -5,7 +5,7 @@ import main.model.Gender;
 public class Human extends Humanoid {
 
     private Gender gender;
- 
+
     public Gender getGender() {
         return gender;
     }
