@@ -1,8 +1,10 @@
 package main.model.animals;
 
+import main.model.Food;
+
 public interface AnimalInterface {
 
-    void eat();
+    void eat(Food food);
 
     void makeSound();
 
