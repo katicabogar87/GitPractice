@@ -41,7 +41,7 @@ public class Humanoid implements HumanoidInterface {
 
     @Override
     public void renamePet(Animal animal, String newName) {
-       animal.setNAme(newName);
+       animal.setName(newName);
     }
 
     public String getLastName() {
